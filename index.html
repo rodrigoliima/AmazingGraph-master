@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Create amazing graphics</title>
+    <style>
+
+        #container{
+            margin-left: 50px;
+        }
+
+        #nav{
+            overflow: hidden;
+            margin-top: 10px;         
+        }
+
+        #logo{
+            float: left;
+            color: #D2872C;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #menu{
+            list-style: none;
+            float: right;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li{
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        #cont{
+            position: fixed;
+            margin-left: 30px;
+            max-width: 400px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #766F68;
+            float: left;
+            
+        }
+
+        input[type="submit"]{
+            color:#FFFFFF;
+            background-color: #D2872C; 
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: bold;
+            border-radius: 10px;
+            border-style: hidden;
+        }
+
+        #img{
+            float: right;
+        }
+
+        /* terminar a parte do celular*/
+        /*500 a 800 deixar a imagem parada*/
+
+        @media screen and ( max-width: 500px) {
+
+            #nav{
+            overflow: hidden;
+            margin-top: 10px;         
+            }
+
+             #logo{
+            float: left;
+            color: #D2872C;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /*terminar a lista do menu*/
+
+            #img{
+            position: center;
+            }
+
+
+        }
+          
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">   
+
+         <div id="nav">
+            
+            <div id="logo">
+                DevChallenge
+            </div>
+
+            <ul id="menu">
+                <li>Home</li>
+                <li>Features</li>
+                <li>Contact </li>
+            </ul>
+         </div>
+
+        <div id="cont">
+
+            <h1>Create amazing<br>graphics</h1>
+
+            <p>Colaborate and create beatiful<br>graphics with your team</p>
+
+            <form>
+                <input type="submit" value="Start now">
+            </form>
+
+        </div>
+            
+        <div id="img">
+            <img class="picture" src="assets/team.jpg" height=260px></img>
+        </div>
+
+    </div>
+
+        
+
+    
+
+    
+    
+
+</body>
+
+</hmtl>
