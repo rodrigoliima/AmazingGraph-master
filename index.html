@@ -37,6 +37,11 @@
             margin-right: 15px;
         }
 
+        #img{
+            float: right;
+            border: solid 1px pink
+        }
+
         #cont{
             position: fixed;
             margin-left: 50px;
@@ -61,10 +66,6 @@
             border-style: hidden;
         }
 
-        #img{
-            float: right;
-        }
-
         /* terminar a parte do celular*/
         /*500 a 800 deixar a imagem parada*/
 
@@ -75,23 +76,45 @@
             margin-top: 10px;         
             }
 
-             #logo{
+            #logo{
             float: left;
             color: #D2872C;
             font-size: 25px;
             font-family: Arial, Helvetica, sans-serif;
             }
 
-            /*terminar a lista do menu*/
-
-            #img{
-            position: center;
+            #menu{    /*mexer------------------------*/
+            list-style: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
             }
 
+            li{
+                display: inline-block;
+                margin-right: 15px;
+            }
 
-        }
-          
-        
+            #img{
+                display: block;
+                margin: center;
+                position: fixed;
+            }
+
+            #cont{
+                display: block;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #766F68;
+                text-align: center;
+                
+                border: solid 1px red;
+
+            }
+
+        }  
 
     </style>
 
@@ -116,6 +139,10 @@
 
     </div>
 
+    <div id="img">
+        <img class="picture" src="assets/team.jpg" height=260px></img>
+    </div>
+
     <div id="cont">
 
         <h1>Create amazing<br>graphics</h1>
@@ -128,10 +155,6 @@
 
     </div>
             
-    <div id="img">
-        <img class="picture" src="assets/team.jpg" height=260px></img>
-    </div>
-
 </body>
 
 </hmtl>
