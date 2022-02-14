@@ -1,0 +1,140 @@
+#header{
+    margin: 50px;
+}
+
+#nav{
+    overflow: hidden;
+    margin-top: 10px;         
+}
+
+#logo{
+    float: left;
+    color: #D2872C; 
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    float: left;
+    margin-right: 20px;
+    color: #000000;
+}
+
+#img{
+    float:right;
+    margin-right: 30px;
+}
+
+#phase{
+    font-size: 52pt;
+    color: #766F68;
+    font-weight: bolder;
+}
+
+#phase2{
+    font-size: 23pt;
+    color: darkgray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#cont{
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 100px;
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+input[type="submit"]{
+    color:#FFFFFF;
+    background-color: #D2872C; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 23pt;
+    border-radius: 10px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+@media screen and ( max-width: 420px) {
+
+    #header{
+        margin: 0px;
+    }
+
+    #nav{
+        overflow: hidden;
+        margin-top: 10px;   
+    }
+
+    #logo{
+        display: inline-block;
+        color: #D2872C;
+        font-size: 34pt;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    #menu{    
+        list-style: none;
+        text-align: center;
+        float: none;
+        display: inline-block;
+        margin: 20px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li{
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    #img{
+        float: none;
+        display: block;
+        margin: auto;
+        position: center;
+    }
+
+    #cont{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-right: 90px;
+    }
+
+    #phase{
+        font-size: 52pt;
+        color: #766F68;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+    
+    #phase2{
+        font-size: 23pt;
+        color: darkgray;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
